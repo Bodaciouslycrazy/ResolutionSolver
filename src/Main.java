@@ -20,11 +20,6 @@ public class Main
 			System.out.println("Example: java Main test.kb");
 			return;
 		}
-		else if(!args[0].endsWith(".kb"))
-		{
-			System.out.println("It looks like the supplied file is not a .kb file. please rename it and try again.");
-			return;
-		}
 		else if(args.length > 1)
 		{
 			System.out.println("Too many arguments!");
